@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2775774556981706104
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2624282194331498736}
+  - component: {fileID: 7300258890923300580}
+  - component: {fileID: -3362645205788003382}
+  - component: {fileID: 5694381381587232838}
+  m_Layer: 0
+  m_Name: TeleportSpell
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2624282194331498736
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2775774556981706104}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7300258890923300580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2775774556981706104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e2639863b1143d43946b6a960ca8157, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseGoldCost: 30
+  CurrentCost: 0
+  castTime: 0.25
+  delayCasting: 0
+  icon: {fileID: 21300000, guid: 8192f2679f5c1414e9e04c28c39128d4, type: 3}
+  Title: Teleport
+  Description: Teleport a short distance in the target direction. Be careful not
+    to accidentally escape the arena!
+  type: 1
+  needsToBeAimed: 1
+  angle: {x: 0, y: 0}
+  distance: 3
+--- !u!114 &-3362645205788003382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2775774556981706104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a10f783fb4991d4693930d90c270465, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToShow: {fileID: 8602198477731505166, guid: fa78b9d9ab8c82d46a93e26898a055c2, type: 3}
+  duration: 0.5
+  followPlayer: 0
+--- !u!114 &5694381381587232838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2775774556981706104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a10f783fb4991d4693930d90c270465, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToShow: {fileID: 1841026265431281621, guid: 53ff3dc308c740943871fc7f60709eb9, type: 3}
+  duration: 0.3
+  followPlayer: 1

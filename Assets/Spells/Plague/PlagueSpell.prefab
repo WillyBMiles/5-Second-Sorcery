@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &216077849196359060
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2729276824285770105}
+  - component: {fileID: 5336550675055917320}
+  m_Layer: 0
+  m_Name: PlagueSpell
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2729276824285770105
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216077849196359060}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.404978, y: -0.67155266, z: -0.03383461}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5336550675055917320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216077849196359060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cff047ec1faceec479bf1ec0509945e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseGoldCost: 150
+  CurrentCost: 0
+  castTime: 3.5
+  delayCasting: 3.25
+  icon: {fileID: 21300000, guid: 390e1f4f251fc47429fd648f7429a3bb, type: 3}
+  Title: Plague
+  Description: Unleash a virulent plague that damages all enemies. Activates at the
+    end of cast time.
+  type: 2
+  needsToBeAimed: 0
+  angle: {x: 0, y: 0}
+  prefab: {fileID: 3657590831409881087, guid: f8a62ccd5f876ec41ae70f2d17393e7c, type: 3}
+  deleteAfter: 2

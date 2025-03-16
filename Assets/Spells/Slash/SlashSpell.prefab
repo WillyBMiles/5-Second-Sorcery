@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2138474251018491961
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2897877203661139814}
+  - component: {fileID: 8696284682453774564}
+  m_Layer: 0
+  m_Name: SlashSpell
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2897877203661139814
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138474251018491961}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8696284682453774564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138474251018491961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35d9525d7c9f825418826dcafcef96ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseGoldCost: 40
+  CurrentCost: 0
+  castTime: 0.25
+  delayCasting: 0
+  icon: {fileID: 21300000, guid: cb421892796f8b6478e2c50930dadef2, type: 3}
+  Title: Slash
+  Description: Summon a magical sword that does a short range slash in an arc.
+  type: 2
+  needsToBeAimed: 1
+  angle: {x: 0, y: 0}
+  projectile: {fileID: 4727610237488147312, guid: c9a2d279603a36c47b7cb12233da560d, type: 3}
+  spawnAtFeet: 0
+  playerFollowProjectile: 0
+  makePlayerInvincible: 0
+  spawnOffset: 0
+  realign: 0

@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4095956032460978788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1038026329583451008}
+  - component: {fileID: 8399646786397895059}
+  m_Layer: 0
+  m_Name: SpellThreebolts
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1038026329583451008
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4095956032460978788}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.4198456, y: -0.8626885, z: 0.02220961}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8399646786397895059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4095956032460978788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90c0e5d28868f2c4da729c9f035a393c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseGoldCost: 100
+  CurrentCost: 0
+  castTime: 1.25
+  delayCasting: 0
+  icon: {fileID: 21300000, guid: efb13f06a3192ea4b821c05e21333ed8, type: 3}
+  Title: Tribolt
+  Description: Fire three magical bolts with a small amount of spread.
+  type: 2
+  needsToBeAimed: 1
+  angle: {x: 0, y: 0}
+  projectile: {fileID: 6784263103941997453, guid: eaf971d43c337c441a4307fd6093be78, type: 3}
+  spawnAtFeet: 0
+  playerFollowProjectile: 0
+  makePlayerInvincible: 0
+  spawnOffset: 0
+  realign: 0
+  spreadDegrees: 15

@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8154320707651633602
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4757168247925661683}
+  - component: {fileID: 2039267389750563512}
+  - component: {fileID: 1487386042785532697}
+  m_Layer: 0
+  m_Name: WizardJuice 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4757168247925661683
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8154320707651633602}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2039267389750563512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8154320707651633602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bff51699935fc4d40bac17c1ee2b77cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseGoldCost: 50
+  CurrentCost: 0
+  castTime: 0.25
+  delayCasting: 0
+  icon: {fileID: 21300000, guid: 2e49455f8236afa4389db50bb17c58a2, type: 3}
+  Title: Wizard Juice
+  Description: Become larger. Gain an additional health.
+  type: 0
+  needsToBeAimed: 0
+  angle: {x: 0, y: 0}
+  duration: 5
+  multiplier: 2
+  extraHealth: 1
+--- !u!114 &1487386042785532697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8154320707651633602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a10f783fb4991d4693930d90c270465, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToShow: {fileID: 9155479632045971405, guid: 833f7f04d5b6e1d409d54251fefb23de, type: 3}
+  duration: 5
+  followPlayer: 1

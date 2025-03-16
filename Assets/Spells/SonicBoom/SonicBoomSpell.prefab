@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &126263112216688867
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 497022950485521422}
+  - component: {fileID: 9024999420750933068}
+  m_Layer: 0
+  m_Name: SonicBoomSpell
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &497022950485521422
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 126263112216688867}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.2499242, y: -1.8359202, z: -0.020213014}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9024999420750933068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 126263112216688867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35d9525d7c9f825418826dcafcef96ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BaseGoldCost: 50
+  CurrentCost: 0
+  castTime: 1
+  delayCasting: 0
+  icon: {fileID: 21300000, guid: caff1c42daab1b94ab2f844ab0ae0ba9, type: 3}
+  Title: Sonic Boom
+  Description: Launch a short range sonic boom that deals damage and knocks enemies
+    back.
+  type: 2
+  needsToBeAimed: 1
+  angle: {x: 0, y: 0}
+  projectile: {fileID: 7163673722035006155, guid: ffbdab0fa2a7f0d4785f78b35cb797ca, type: 3}
+  spawnAtFeet: 0
+  playerFollowProjectile: 0
+  makePlayerInvincible: 0
+  spawnOffset: 0
+  realign: 0

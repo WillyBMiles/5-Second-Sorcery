@@ -1,0 +1,404 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.11f1 (d00248457e15) revision 13632072'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 15776 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/willi/Documents/Mage Tournament
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+56869
+Successfully changed project path to: C:/Users/willi/Documents/Mage Tournament
+C:/Users/willi/Documents/Mage Tournament
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19608] Host "[IP] 192.168.0.84 [Port] 0 [Flags] 2 [Guid] 3638848792 [EditorId] 3638848792 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-EI7M1NKJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19608] Host "[IP] 192.168.0.84 [Port] 0 [Flags] 2 [Guid] 3638848792 [EditorId] 3638848792 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-EI7M1NKJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 43.44 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.11f1 (d00248457e15)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/willi/Documents/Mage Tournament/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x249d)
+    Vendor:   NVIDIA
+    VRAM:     8033 MB
+    Driver:   31.0.15.4680
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.018465 seconds.
+- Loaded All Assemblies, in  0.538 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.430 seconds
+Domain Reload Profiling: 964ms
+	BeginReloadAssembly (192ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (96ms)
+	LoadAllAssembliesAndSetupDomain (182ms)
+		LoadAssemblies (187ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (177ms)
+			TypeCache.Refresh (176ms)
+				TypeCache.ScanAssembly (159ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (431ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (336ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (225ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.338 seconds
+Refreshing native plugins compatible for Editor in 15.47 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.341 seconds
+Domain Reload Profiling: 3667ms
+	BeginReloadAssembly (221ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (963ms)
+		LoadAssemblies (740ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (348ms)
+			TypeCache.Refresh (280ms)
+				TypeCache.ScanAssembly (256ms)
+			ScanForSourceGeneratedMonoScriptInfo (45ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (2342ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2070ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (237ms)
+			ProcessInitializeOnLoadAttributes (1319ms)
+			ProcessInitializeOnLoadMethodAttributes (473ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 13.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 119 unused Assets / (0.6 MB). Loaded Objects now: 6656.
+Memory consumption went from 344.3 MB to 343.7 MB.
+Total: 25.949800 ms (FindLiveObjects: 0.816900 ms CreateObjectMapping: 0.433500 ms MarkObjects: 24.002200 ms  DeleteObjects: 0.695200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 43864.041052 seconds.
+  path: Assets/Enemies/Rounds/Round 1 Variant.prefab
+  artifactKey: Guid(9bbaadd105113e847a3cb0f45a3e5c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Rounds/Round 1 Variant.prefab using Guid(9bbaadd105113e847a3cb0f45a3e5c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd986de9fbd35ba259eea82e647535312') in 0.055501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 261.831488 seconds.
+  path: Assets/Enemies/Rounds/Round 1 Variant.prefab
+  artifactKey: Guid(9bbaadd105113e847a3cb0f45a3e5c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Rounds/Round 1 Variant.prefab using Guid(9bbaadd105113e847a3cb0f45a3e5c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82de09c4d1dc2f56242b1434982406a') in 0.415063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 3.562164 seconds.
+  path: Assets/Enemies/Rounds/Round 6.5 Variant.prefab
+  artifactKey: Guid(c500dc8b2df5e9a4590dda89e090e3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Rounds/Round 6.5 Variant.prefab using Guid(c500dc8b2df5e9a4590dda89e090e3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'King': Transition 'Walk -> Idle' in state 'Walk' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Editor\Src\Animation\StateMachine.cpp line 1841]
+
+ -> (artifact id: '9532072f3217b3a3f73415bbcf9d1ad9') in 0.067662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 109
+========================================================================
+Received Import Request.
+  Time since last request: 118.015634 seconds.
+  path: Assets/Enemies/Rounds/Round 6 Variant.prefab
+  artifactKey: Guid(d21888213c2c4ec4583f4186c4fc754e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Rounds/Round 6 Variant.prefab using Guid(d21888213c2c4ec4583f4186c4fc754e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b87c60c76c40dc5a3bf0ced885d948') in 0.038270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 121
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Enemies/Rounds/Round 7 Variant.prefab
+  artifactKey: Guid(e983627eadeee3b46b4a602ac67a966f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Rounds/Round 7 Variant.prefab using Guid(e983627eadeee3b46b4a602ac67a966f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d6e5b485d25b19234f52b0266a1b22') in 0.037939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 172
+========================================================================
+Received Import Request.
+  Time since last request: 38.287490 seconds.
+  path: Assets/Enemies/Rounds/Round 7 Variant.prefab
+  artifactKey: Guid(e983627eadeee3b46b4a602ac67a966f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Rounds/Round 7 Variant.prefab using Guid(e983627eadeee3b46b4a602ac67a966f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6132093a660cf1bc2902b6dcd05837a') in 0.033436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 172
+========================================================================
+Received Import Request.
+  Time since last request: 0.946302 seconds.
+  path: Assets/Enemies/Rounds/Round 7 Variant.prefab
+  artifactKey: Guid(e983627eadeee3b46b4a602ac67a966f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Rounds/Round 7 Variant.prefab using Guid(e983627eadeee3b46b4a602ac67a966f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485f5ae1fad581ffdf4fc416454afa97') in 0.035439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 172
+========================================================================
+Received Import Request.
+  Time since last request: 45.648594 seconds.
+  path: Assets/Enemies/Enemies/Witch.prefab
+  artifactKey: Guid(3393f7ff3a5166a41845d8c103a50dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Enemies/Witch.prefab using Guid(3393f7ff3a5166a41845d8c103a50dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a5be9b73ce4987ba7d10f162f25d2e') in 0.030087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 501.936817 seconds.
+  path: Assets/Music/MT_Combat1.wav
+  artifactKey: Guid(57595594069914835932df7234a5a783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/MT_Combat1.wav using Guid(57595594069914835932df7234a5a783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d594c041b4ad921bf8eec5111739d3') in 0.074890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Music/MT_ShopA_4x.wav
+  artifactKey: Guid(dfbf0b26382a3497794f747d317f617a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/MT_ShopA_4x.wav using Guid(dfbf0b26382a3497794f747d317f617a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb78f6ee06db376f217636fe86832b31') in 0.035090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Music/MT_Combat3.wav
+  artifactKey: Guid(42df3ab3fdb6e4e9baa33d2e6aa52b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/MT_Combat3.wav using Guid(42df3ab3fdb6e4e9baa33d2e6aa52b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564230fc921efd218160172bc7be7b3a') in 0.025777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Music/MT_ShopC_4x.wav
+  artifactKey: Guid(e08dc7a96d5a6429799dc492389e1175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/MT_ShopC_4x.wav using Guid(e08dc7a96d5a6429799dc492389e1175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a9d92a5a39ac2860582a5c796a0517') in 0.019197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Music/MT_Combat4.wav
+  artifactKey: Guid(8939ad19bf9e549a797ee2842096954b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/MT_Combat4.wav using Guid(8939ad19bf9e549a797ee2842096954b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b93ddb3e574f6434c1f4f0b8a3f4d31a') in 0.021086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.460228 seconds.
+  path: Assets/Enemies/Rounds
+  artifactKey: Guid(bb5260ae655e4b54c85dcc6956ad1b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Rounds using Guid(bb5260ae655e4b54c85dcc6956ad1b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e879b3ccf0e9c54b8930ea1d2f8ac42') in 0.003052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.104345 seconds.
+  path: Assets/Enemies/Rounds/Round 3 Variant.prefab
+  artifactKey: Guid(4278b229fa51dd34085641dabf3a8211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Rounds/Round 3 Variant.prefab using Guid(4278b229fa51dd34085641dabf3a8211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0207e89f8951272d3d8cedaeacee0c2f') in 0.030452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 105
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Enemies/Rounds/Round 6.5 Variant.prefab
+  artifactKey: Guid(c500dc8b2df5e9a4590dda89e090e3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Rounds/Round 6.5 Variant.prefab using Guid(c500dc8b2df5e9a4590dda89e090e3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'King': Transition 'Walk -> Idle' in state 'Walk' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Editor\Src\Animation\StateMachine.cpp line 1841]
+
+ -> (artifact id: '2b3318cb31185372096f2ae66f93bcaf') in 0.087851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 266
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Enemies/Rounds/Round 10 Variant.prefab
+  artifactKey: Guid(9355fb745d6da50449406a947019af02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Rounds/Round 10 Variant.prefab using Guid(9355fb745d6da50449406a947019af02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '444131c9422b9e3524dd407360ccf71d') in 0.004200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Enemies/Rounds/Round 6 Variant.prefab
+  artifactKey: Guid(d21888213c2c4ec4583f4186c4fc754e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Rounds/Round 6 Variant.prefab using Guid(d21888213c2c4ec4583f4186c4fc754e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be151da81a2970a29ea92d9b6808e820') in 0.036785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 123
+========================================================================
+Received Import Request.
+  Time since last request: 26.015528 seconds.
+  path: Assets/Spells/Beam/MT_Beam.wav
+  artifactKey: Guid(af2f451c41e3d48f68d2a3f8e55d9c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spells/Beam/MT_Beam.wav using Guid(af2f451c41e3d48f68d2a3f8e55d9c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ac7f50e891a4150208e34bea1c58e7') in 0.024943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 11.234842 seconds.
+  path: Assets/Enemies/Rounds/Round 1 Variant.prefab
+  artifactKey: Guid(9bbaadd105113e847a3cb0f45a3e5c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Rounds/Round 1 Variant.prefab using Guid(9bbaadd105113e847a3cb0f45a3e5c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1668aa953be1e2d30bc6a382f80c4110') in 0.025028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 1.083202 seconds.
+  path: Assets/UI/MT_Purchase.wav
+  artifactKey: Guid(aa8db8438b5c143d4858d76faa39eb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/MT_Purchase.wav using Guid(aa8db8438b5c143d4858d76faa39eb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285b0856ad4223873bd64719682666e4') in 0.019812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.267494 seconds.
+  path: Assets/Enemies/Rounds/Round 1 Variant.prefab
+  artifactKey: Guid(9bbaadd105113e847a3cb0f45a3e5c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Rounds/Round 1 Variant.prefab using Guid(9bbaadd105113e847a3cb0f45a3e5c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fab3cf4b8136215041513315741410a') in 0.019599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 5.265119 seconds.
+  path: Assets/Enemies/Rounds/Round 2 Variant.prefab
+  artifactKey: Guid(8c5df405d2213464abb27cf9e44dd053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Rounds/Round 2 Variant.prefab using Guid(8c5df405d2213464abb27cf9e44dd053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93eb4f4c54fdcbcf0ab130ed71331e35') in 0.018452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 7.394521 seconds.
+  path: Assets/Enemies/Rounds/Round 2 Variant.prefab
+  artifactKey: Guid(8c5df405d2213464abb27cf9e44dd053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Rounds/Round 2 Variant.prefab using Guid(8c5df405d2213464abb27cf9e44dd053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a961eb03f11c7780d2a3c9838cffd4fe') in 0.019992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 73
